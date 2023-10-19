@@ -181,3 +181,59 @@ main {
 #promotion-list img {
     width: 100%;
 }
+
+/* Investor Information Section */
+#investor-information {
+    width: 100%;
+    padding: 50px 30px;
+}
+
+#investor-information h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.border-bottom {
+    margin: 0 auto;
+    width: 130px;
+    height: 10px;
+    background-color: #eb9b01;
+}
+
+#investor-information ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 90px;
+}
+
+#investor-information li {
+    width: 31.5%;
+    margin: 0 10px;
+    position: relative;
+}
+
+#investor-information img {
+    width: 100%;
+    height: 425px;
+}
+
+#info-caption {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 192px;
+    padding: 50px 20px 10px 20px;
+    background-color: rgba(235, 96, 1, 0.7);
+}
+
+#info-caption h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+#info-caption a {
+    color: #fff;
+}
