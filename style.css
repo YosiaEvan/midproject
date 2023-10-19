@@ -8,7 +8,7 @@
 
 /* Body */
 body {
-    
+    width: 100%;
 }
 
 /* Header */
@@ -86,4 +86,59 @@ header img:hover {
 
 #navbar a:hover {
     color: #002787;
+}
+
+/* Main Section*/
+main {
+    display: block;
+}
+
+#kasir {
+    width: 100%;
+}
+
+/* Main Section - Value Chain */
+#value-chain-section {
+    width: 83%;
+    margin: 20px auto;
+}
+
+#value-chain-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#value-chain-section li {
+    width: 31.5%;
+    margin: 0 10px 30px;
+}
+
+#value-chain-section img {
+    width: 100%;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+
+#value-chain-section li span, #value-chain-section li p, #value-chain-section li h1, #value-chain-section li a {
+    padding: 5px 10px;
+}
+
+.value-chain {
+    text-transform: uppercase;
+    color: #eb6001;
+    font-size: 20px;
+}
+
+#value-chain-section h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#value-chain-section p {
+    color: #999;
+}
+
+#value-chain-section a {
+    color: #eb6001;
 }
