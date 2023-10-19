@@ -142,3 +142,42 @@ main {
 #value-chain-section a {
     color: #eb6001;
 }
+
+/* Main Section - Promotions */
+#promotions {
+    background-image: linear-gradient(#eb9a01, #eb6301);
+    display: block;
+    align-items: center;
+    width: 100%;
+    padding: 50px 30px;
+}
+
+#promotions h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#promotion-1 img {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+#promotion-list {
+    padding: 5px 10px;
+}
+
+#promotion-list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#promotion-list li {
+    width: 39%;
+    padding: 10px 5px 10px;
+}
+
+#promotion-list img {
+    width: 100%;
+}
