@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
 }
 
@@ -131,11 +131,13 @@ main {
     text-transform: uppercase;
     color: #eb6001;
     font-size: 20px;
+    font-weight: bolder;
 }
 
 #value-chain-section h1 {
-    font-size: 25px;
+    font-size: 28px;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 #value-chain-section p {
@@ -330,7 +332,7 @@ footer {
 }
 
 #num {
-    font-size: 60px;
+    font-size: 64px;
     margin-bottom: 5px;
     font-weight: bolder;
 } 
