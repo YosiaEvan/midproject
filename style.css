@@ -14,6 +14,7 @@ body {
 /* Header */
 header {
     display: flex;
+    justify-content: space-between;
     height: 147px;
     padding: 0 50px;
     background-color: #fff;
@@ -43,7 +44,6 @@ header img:hover {
     align-items: center;
     height: 30px;
     margin-top: 30px;
-    margin-left: 590px;
 }
 
 #search {
@@ -69,17 +69,17 @@ header img:hover {
 #navbar {
     align-items: center;
     height: 30px;
-    margin-left: 730px;
     margin-top: 25px;
 }
 
 #navbar ul {
     display: flex;
+    justify-content: right;
     list-style-type: none;
 }
 
 #navbar li {
-    margin: 0 15px;
+    margin-left: 30px;
 }
 
 #navbar a {
