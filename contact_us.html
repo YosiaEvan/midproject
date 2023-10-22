@@ -42,6 +42,90 @@
                 </nav>
             </div>
         </header>
+
+        <!-- Main Section -->
+        <main id="main-contactus">
+            <h1>Contact Us</h1>
+            <div class="border-bottom"></div>
+            <form method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name...">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email...">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Your username...">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <p>Gender</p>
+                <div id="gender-form">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+                <label for="religion">Religion</label><br>
+                <select name="religion" id="religion">
+                    <option value="" selected disabled>Select Option</option>
+                    <option value="islam">Islam</option>
+                    <option value="christian">Christian</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select><br>
+                <label for="address">Address</label><br>
+                <textarea name="address" id="address" placeholder="Your address..."></textarea>
+                <p>Hobbies</p>
+                <div id="hobbies-form">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="reading" name="reading" value="Reading">
+                            <label for="reading">Reading</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="cooking" name="cooking" value="Cooking">
+                            <label for="cooking">Cooking</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="gardening" name="gardening" value="Gardening">
+                            <label for="gardening">Gardening</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="travelling" name="travelling" value="Travelling">
+                            <label for="travelling">Travelling</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="hiking" name="hiking" value="Hiking">
+                            <label for="hiking">Hiking</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="photography" name="photography" value="Photography">
+                            <label for="photography">Photography</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="painting" name="painting" value="Painting">
+                            <label for="painting">Painting</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="music" name="music" value="Music">
+                            <label for="music">Music</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sport" name="sport" value="Sport">
+                            <label for="sport">Sport</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="collecting" name="collecting" value="Collecting">
+                            <label for="collecting">Collecting</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="other" name="other" value="Other">
+                            <label for="other">Other</label>
+                        </li>
+                    </ul>                    
+                </div>
+                <button type="submit" value="Save">Submit</button>
+            </form>
+        </main>
         
         <!-- Footer -->
         <footer>
