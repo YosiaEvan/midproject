@@ -91,7 +91,7 @@ header img:hover {
     color: #002787;
 }
 
-/* Main Section*/
+/* Main Section - Index*/
 main {
     display: block;
 }
@@ -287,6 +287,87 @@ main {
 #need-help-content img {
     width: 31.5%;
     margin: 0 10px;
+}
+
+/* Main Section - Bio */
+#main-bio {
+    height: 650px;
+    padding: 20px;
+}
+
+#profile {
+    float: left;
+    background-color: #f3f3f3;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+#profile img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+#bio {
+    float: right;
+    background-color: #f3f3f3;
+    width: 67%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#bio table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#bio th, #bio td {
+    padding: 20px 10px;
+    text-align: left;
+    border-bottom: 1px solid #999;
+}
+
+#bio-contact {
+    float: left;
+    clear: left;
+    background-color: #f3f3f3;
+    width: 30%;
+    padding: 25px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bio-contact table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#bio-contact th, #bio-contact td {
+    padding: 15px 10px;
+}
+
+#bio-contact th {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: center;
+}
+
+#bio-contact td {
+    text-align: right;
+}
+
+#bio-contact img {
+    width: 25px;
+    margin-right: 5px;
 }
 
 /* Footer */
