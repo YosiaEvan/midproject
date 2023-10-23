@@ -38,6 +38,9 @@
                         <li>
                             <a href="contact_us.html">CONTACT US</a>
                         </li>
+                        <li>
+                            <a href="technical_documentation.html">TECHNICAL DOCUMENTATION</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -50,12 +53,16 @@
             <form method="post">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Your full name...">
+
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email...">
+
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="Your username...">
+
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Password">
+
                 <p>Gender</p>
                 <div id="gender-form">
                     <input type="radio" id="male" name="gender" value="Male">
@@ -63,6 +70,7 @@
                     <input type="radio" id="female" name="gender" value="Female">
                     <label for="female">Female</label>
                 </div>
+
                 <label for="religion">Religion</label><br>
                 <select name="religion" id="religion">
                     <option value="" selected disabled>Select Option</option>
@@ -72,8 +80,10 @@
                     <option value="buddha">Buddha</option>
                     <option value="konghucu">Konghucu</option>
                 </select><br>
+
                 <label for="address">Address</label><br>
                 <textarea name="address" id="address" placeholder="Your address..."></textarea>
+
                 <p>Hobbies</p>
                 <div id="hobbies-form">
                     <ul>
@@ -123,6 +133,7 @@
                         </li>
                     </ul>                    
                 </div>
+                
                 <button type="submit" value="Save">Submit</button>
             </form>
         </main>
