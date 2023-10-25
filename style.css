@@ -454,7 +454,7 @@ button {
 
 /* Main Section - Technical Documentation */
 #technical {
-    height: 4610px;
+    height: 4605px;
     margin: 20px 80px;
     padding: 20px;
     background-color: #f3f3f3;
@@ -465,11 +465,13 @@ button {
 #technical-menu {
     float: left;
     width: 20%;
+    height: 490px;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
     position: sticky;
-    top: 185px;
+    top: 160px;
+    overflow: scroll;
 }
 
 #technical-menu h1 {
