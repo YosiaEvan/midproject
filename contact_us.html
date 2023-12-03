@@ -50,7 +50,7 @@
         <main id="main-contactus">
             <h1>Contact Us</h1>
             <div class="border-bottom"></div>
-            <form method="post">
+            <form name="myForm" onsubmit="return validateForm()" method="post">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Your full name...">
 
@@ -82,53 +82,53 @@
                 </select><br>
 
                 <label for="address">Address</label><br>
-                <textarea name="address" id="address" placeholder="Your address..."></textarea>
+                <textarea name="address" id="address" value="Address" placeholder="Your address..."></textarea>
 
                 <p>Hobbies</p>
                 <div id="hobbies-form">
                     <ul>
                         <li>
-                            <input type="checkbox" id="reading" name="reading" value="Reading">
+                            <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
                             <label for="reading">Reading</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="cooking" name="cooking" value="Cooking">
+                            <input type="checkbox" id="cooking" name="hobbies[]" value="Cooking">
                             <label for="cooking">Cooking</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="gardening" name="gardening" value="Gardening">
+                            <input type="checkbox" id="gardening" name="hobbies[]" value="Gardening">
                             <label for="gardening">Gardening</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="travelling" name="travelling" value="Travelling">
+                            <input type="checkbox" id="travelling" name="hobbies[]" value="Travelling">
                             <label for="travelling">Travelling</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="hiking" name="hiking" value="Hiking">
+                            <input type="checkbox" id="hiking" name="hobbies[]" value="Hiking">
                             <label for="hiking">Hiking</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="photography" name="photography" value="Photography">
+                            <input type="checkbox" id="photography" name="hobbies[]" value="Photography">
                             <label for="photography">Photography</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="painting" name="painting" value="Painting">
+                            <input type="checkbox" id="painting" name="hobbies[]" value="Painting">
                             <label for="painting">Painting</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="music" name="music" value="Music">
+                            <input type="checkbox" id="music" name="hobbies[]" value="Music">
                             <label for="music">Music</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="sport" name="sport" value="Sport">
+                            <input type="checkbox" id="sport" name="hobbies[]" value="Sport">
                             <label for="sport">Sport</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="collecting" name="collecting" value="Collecting">
+                            <input type="checkbox" id="collecting" name="hobbies[]" value="Collecting">
                             <label for="collecting">Collecting</label>
                         </li>
                         <li>
-                            <input type="checkbox" id="other" name="other" value="Other">
+                            <input type="checkbox" id="other" name="hobbies[]" value="Other">
                             <label for="other">Other</label>
                         </li>
                     </ul>                    
@@ -181,5 +181,50 @@
                 <p>&copy; 2023 &middot; Kimia Farma. All Right Reserved</p>
             </div>
         </footer>
+
+        <script>
+            function validateForm() {
+                let fullName = document.forms["myForm"]["fullname"].value;
+                if(fullName == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+                let email = document.forms["myForm"]["email"].value;
+                if(email == "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+                let userName = document.forms["myForm"]["username"].value;
+                if(userName == "") {
+                    alert("Username must be filled out");
+                    return false;
+                }
+                let pass = document.forms["myForm"]["password"].value;
+                if(pass == "") {
+                    alert("Password must be filled out");
+                    return false;
+                }
+                let gender = document.forms["myForm"]["gender"].value;
+                if(gender == "") {
+                    alert("Gender must be selected");
+                    return false;
+                }
+                let religion= document.forms["myForm"]["religion"].value;
+                if(religion == "") {
+                    alert("Religion must be filled out");
+                    return false;
+                }
+                let address = document.forms["myForm"]["address"].value;
+                if(address == "") {
+                    alert("Address must be filled out");
+                    return false;
+                }
+                let hobbies = document.querySelectorAll('input[type="checkbox"]:checked');
+                if(hobbies.length == 0) {
+                    alert("At least choose one hobbie");
+                    return false;
+                }
+            }
+        </script>
     </body>
 </html>

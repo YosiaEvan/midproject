@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+
+        <!-- TailwindCSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Contact Us</title>
+    </head>
+    <body class="w-screen box-border font-['Source_Sans_Pro']">
+        <!-- Header -->
+        <header class="flex justify-between w-screen h-[147px] px-[50px] bg-white border-t-[7px] border-solid border-[#eb6001] sticky top-0 z-50 items-center">
+            <img src="img/logo-kimia-farma.png" alt="Logo Kimia Farma">
+            <div id="search-lang-navbar" class="hidden md:block">
+                <div id="search-lang" class="flex items-center justify-end h-[30px] mt-[30px]">
+                    <div id="search" class="mr-[15px]">
+                        <input type="text" placeholder="Search" class="p-2.5 w-[330px] border border-solid border-[#cccccc] rounded-[20px]">
+                    </div>
+                    <div id="lang">
+                        <a href="https://www.kimiafarma.co.id/id" class="text-[#5a5a5a] hover:text-[#0d6efd]">IND</a>
+                         | 
+                        <a href="https://www.kimiafarma.co.id/en" class="text-[#5a5a5a] hover:text-[#0d6efd]">ENG</a>
+                    </div>
+                </div>
+                <nav id="navbar" class="items-center h-[30px] mt-[25px]">
+                    <ul class="flex justify-right md:gap-2 lg:gap-[30px]">
+                        <li>
+                            <a href="index.html" class="text-black hover:text-[#002787]">HOME</a>
+                        </li>
+                        <li>
+                            <a href="biodata.html" class="text-black hover:text-[#002787]">BIODATA</a>
+                        </li>
+                        <li>
+                            <a href="contact_us.html" class="text-black hover:text-[#002787]">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="technical_documentation.html" class="text-black hover:text-[#002787]">TECHNICAL DOCUMENTATION</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bg-[#eb6001] py-1 px-[12px] rounded-sm md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f6b78c" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </div>
+        </header>
+
+        <!-- Main Section -->
+        <main id="main-contactus" class="h-fit my-5 mx-[50px] flex flex-col bg-[#f3f3f3] p-5 rounded-[20px]">
+            <h1 class="text-center uppercase text-4xl font-bold pb-[15px]">Contact Us</h1>
+            <div class="mx-auto w-[130px] h-2.5 bg-[#eb9a01]"></div>
+            <form name="myForm" method="post" onsubmit="return validateForm()" class="w-full flex flex-col pt-[30px] px-[50px]">
+                <div class="flex flex-col md:flex-row md:flex-wrap md:justify-between">
+                    <div class="flex flex-col md:w-[48%]">
+                        <label for="fullname" class="pt-[10px]">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Your full name..." class="mt-[5px] p-2.5 border border-solid border-[#999999] rounded-lg">
+                    </div>
+                    <div class="flex flex-col md:w-[48%]">
+                        <label for="email" class="pt-[10px]">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email..." class="mt-[5px] p-2.5 border border-solid border-[#999999] rounded-lg">
+                    </div>
+                    <div class="flex flex-col md:w-[48%]">
+                        <label for="username" class="pt-[10px]">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Your username..." class="mt-[5px] p-2.5 border border-solid border-[#999999] rounded-lg">
+                    </div>
+                    <div class="flex flex-col md:w-[48%]">
+                        <label for="password" class="pt-[10px]">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Password" class="mt-[5px] p-2.5 border border-solid border-[#999999] rounded-lg">
+                    </div>
+                </div>
+
+                <p class="pt-[10px]">Gender</p>
+                <div id="gender-form" class="my-[5px] px-2.5">
+                    <input type="radio" id="male" name="gender" value="Male" class="mr-[5px]">
+                    <label for="male" class="pt-[10px]">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female" class="mr-[5px]">
+                    <label for="female" class="pt-[10px]">Female</label>
+                </div>
+
+                <label for="religion" class="pt-[10px]">Religion</label>
+                <select name="religion" id="religion" class="my-[5px] p-2.5 rounded-[10px]">
+                    <option value="" selected disabled>Select Option</option>
+                    <option value="islam">Islam</option>
+                    <option value="christian">Christian</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select><br>
+
+                <label for="address" class="pt-[10px]">Address</label>
+                <textarea name="address" id="address" value="Address" placeholder="Your address..." class="my-[5px] p-2.5 h-[100px] rounded-[10px]"></textarea>
+
+                <p class="pt-[10px]">Hobbies</p>
+                <div id="hobbies-form" class="my-[5px]">
+                    <ul class="flex flex-row flex-wrap mb-5">
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="reading" name="hobbies[]" value="Reading" class="mr-[5px]">
+                            <label for="reading">Reading</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="cooking" name="hobbies[]" value="Cooking" class="mr-[5px]">
+                            <label for="cooking">Cooking</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="gardening" name="hobbies[]" value="Gardening" class="mr-[5px]">
+                            <label for="gardening">Gardening</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="travelling" name="hobbies[]" value="Travelling" class="mr-[5px]">
+                            <label for="travelling">Travelling</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="hiking" name="hobbies[]" value="Hiking" class="mr-[5px]">
+                            <label for="hiking">Hiking</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="photography" name="hobbies[]" value="Photography" class="mr-[5px]">
+                            <label for="photography">Photography</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="painting" name="hobbies[]" value="Painting" class="mr-[5px]">
+                            <label for="painting">Painting</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="music" name="hobbies[]" value="Music" class="mr-[5px]">
+                            <label for="music">Music</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="sport" name="hobbies[]" value="Sport" class="mr-[5px]">
+                            <label for="sport">Sport</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="collecting" name="hobbies[]" value="Collecting" class="mr-[5px]">
+                            <label for="collecting">Collecting</label>
+                        </li>
+                        <li class="basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                            <input type="checkbox" id="other" name="hobbies[]" value="Other" class="mr-[5px]">
+                            <label for="other">Other</label>
+                        </li>
+                    </ul>                    
+                </div>
+                
+                <button type="submit" value="Save" class="p-2.5 my-[5px] w-full bg-[#eb9b01] border border-solid border-[#eb9a01] rounded-[10px] uppercase text-[18px] font-bold">Submit</button>
+            </form>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="w-screen bg-[#f3f3f3]">
+            <!-- Contact Section -->
+            <div id="footer-contact" class="flex flex-col p-[50px] gap-5 lg:flex-row">
+                <div id="kantor-pusat" class="w-[30%] md:w-[23%] lg:w-[16%]">
+                    <h4 class="uppercase mb-2.5 font-bold">Kantor Pusat</h4>
+                    <p>PT. KIMIA FARMA, TBK Jl. Veteran NO. 9 Jakarta Pusat - 10110</p>
+                </div>
+                <div id="hubungi-kami" class="lg:w-[58%]">
+                    <h4 class="uppercase mb-2.5 font-bold">Hubungi Kami</h4>
+                    <ul>
+                        <li>
+                            <a href="mailto:corsec@kimiafarma.co.id">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/kimiafarmacare">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/kimiafarmaind">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kimiafarma.ind">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.kimiafarma.co.id/id/hubungi-kami">Hubungi Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="contact-center">
+                    <h4 class="uppercase font-bold">Contact Center</h4>
+                    <p class="text-[64px] mb-[5px] font-bold leading-tight md:text-[60px]">1-500-255</p>
+                    <p class="font-bold">24 hours</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright" class="w-screen h-[120px] pt-[45px] pl-[50px] bg-[#eb6001] text-white text-sm">
+                <a href="https://fti.unai.edu">FTI UNAI</a>
+                &middot;
+                <a href="https://unai.edu">UNAI Website</a>
+                <p>&copy; 2023 &middot; Kimia Farma. All Right Reserved</p>
+            </div>
+        </footer>
+
+        <script>
+            function validateForm() {
+                let fullName = document.forms["myForm"]["fullname"].value;
+                if(fullName == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+                let email = document.forms["myForm"]["email"].value;
+                if(email == "") {
+                    alert("Email must be filled out");
+                    return false;
+                }
+                let userName = document.forms["myForm"]["username"].value;
+                if(userName == "") {
+                    alert("Username must be filled out");
+                    return false;
+                }
+                let pass = document.forms["myForm"]["password"].value;
+                if(pass == "") {
+                    alert("Password must be filled out");
+                    return false;
+                }
+                let gender = document.forms["myForm"]["gender"].value;
+                if(gender == "") {
+                    alert("Gender must be selected");
+                    return false;
+                }
+                let religion= document.forms["myForm"]["religion"].value;
+                if(religion == "") {
+                    alert("Religion must be filled out");
+                    return false;
+                }
+                let address = document.forms["myForm"]["address"].value;
+                if(address == "") {
+                    alert("Address must be filled out");
+                    return false;
+                }
+                let hobbies = document.querySelectorAll('input[type="checkbox"]:checked');
+                if(hobbies.length == 0) {
+                    alert("At least choose one hobbie");
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>
