@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <title>Kimia Farma | BUMN Farmasi Terbesar di Indonesia</title>
+    </head>
+    <body class="source-sans-pro">
+        <!-- Header -->
+        <header class="d-flex justify-content-between w-screen h-147px px-50px bg-white border-top-7px sticky-top z-3 align-items-center">
+            <img src="img/logo-kimia-farma.png" alt="Logo Kimia Farma">
+            <div id="search-lang-navbar" class="d-none d-md-block h-md-100 px-50px fixed-top bg-transparent">
+                <div id="search-lang" class="d-flex justify-content-end align-items-center h-30px mt-30px">
+                    <div id="search">
+                        <input type="text" placeholder="Search" class="p-10px w-330px border border-search">
+                    </div>
+                    <div id="lang" class="d-none d-md-block">
+                        <a href="https://www.kimiafarma.co.id/id" class="text-5a5a5a text-5a5a5a:hover text-decoration-none">IND</a>
+                         | 
+                        <a href="https://www.kimiafarma.co.id/en" class="text-5a5a5a text-5a5a5a:hover text-decoration-none">ENG</a>
+                    </div>
+                </div>
+                <nav id="navbar" class="d-flex flex-row-reverse align-items-center h-30px mt-25px">
+                    <ul class="nav gap-md-2 gap-lg-5 w-fit">
+                        <li class="nav-item">
+                            <a href="index.html" class="text-decoration-none text-black text-black:hover">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="biodata.html" class="text-decoration-none text-black text-black:hover">BIODATA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact_us.html" class="text-decoration-none text-black text-black:hover">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="technical_documentation.html" class="text-decoration-none text-black text-black:hover">TECHNICAL DOCUMENTATION</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="hamburger-menu" class="d-inline-block bg-eb6001 py-1 px-12px rounded-3 d-md-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f6b78c" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </div>
+        </header>
+
+        <!-- Main Section -->
+        <main>
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/slide-2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/slide-3.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/kasir-web.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- Value Chain Section -->
+            <div id="value-chain-section" class="w-516px mx-auto mt-16px"> 
+                <ul class="d-flex flex-column gap-30px list-style-type-none flex-lg-row justify-content-lg-between flex-lg-wrap">
+                    <li>
+                        <img src="img/value-chain-1.png" alt="Manufaktur Bahan Baku" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Manufaktur Bahan Baku</h1>
+                        <p class="py-5px px-2.5 text-999999">Kemandirian industri farmasi melalui oleh KF Sungwun Pharmacopia...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/">read more</a>
+                    </li>
+                    <li>
+                        <img src="img/value-chain-2.png" alt="Manufaktur Farmasi" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Manufaktur Farmasi</h1>
+                        <p class="py-5px px-2.5 text-999999">Manufaktur obat etikal, generic, otc, herbal, alat kesehatan...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/id/pabrik">read more</a>
+                    </li>
+                    <li>
+                        <img src="img/value-chain-3.png" alt="Manufaktur Herbal" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Manufaktur Herbal</h1>
+                        <p class="py-5px px-2.5 text-999999">Potensi pengembangan obat herbal di Indonesia melalui PT SIL...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/">read more</a>
+                    </li>
+                    <li>
+                        <img src="img/value-chain-4.png" alt="Distribusi Farmasi" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Distribusi Farmasi</h1>
+                        <p class="py-5px px-2.5 text-999999">Melalui 49 jaringan distribusi nasional serta pelanggan dengan >30.000 channel ...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/">read more</a>
+                    </li>
+                    <li>
+                        <img src="img/value-chain-5.png" alt="Ritel Farmasi" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Ritel Farmasi</h1>
+                        <p class="py-5px px-2.5 text-999999">Pemimpin pasar ritel farmasi dengan outlet lebih dari > 1.300 dan mengelola 400 klinik Kesehatan di Indonesia ...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/">read more</a>
+                    </li>
+                    <li>
+                        <img src="img/value-chain-6.png" alt="Laboratorium & Klinik Kesehatan" class="w-full rounded-3px pb-5px">
+                        <span class="py-5px px-2.5 text-uppercase text-eb6001 fs-5 fw-bold">Value Chain</span>
+                        <h1 class="py-5px px-2.5 text-uppercase fs-3 fw-bold">Laboratorium & Klinik Kesehatan</h1>
+                        <p class="py-5px px-2.5 text-999999">One stop healtcare solution mulai dari layanan Kesehatan, obat, dan klinik ...</p>
+                        <a class="py-5px px-2.5 text-eb6001 text-decoration-none" href="https://www.kimiafarma.co.id/">read more</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Promotions Section -->
+            <div id="promotion-section" class="d-flex flex-column gap-16px align-items-center w-screen h-fit mt-40px">
+                <h1 class="fs-1 pb-15px text-center text-white fw-bold text-uppercase">Promotions</h1>
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/promotion-slide-1-sm.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-2-sm.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-3-sm.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-4-sm.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-5-sm.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-6-sm.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-7-sm.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/promotion-slide-8-sm.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div id="promotion-list">
+                    <ul class="d-flex flex-column gap-16px flex-lg-row justify-content-lg-between list-style-type-none">
+                        <li>
+                            <a href="https://www.kimiafarma.co.id/">
+                                <img src="img/promotion-2.png" alt="Promotion 2" class="w-full">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.kimiafarma.co.id/">
+                                <img src="img/promotion-3.png" alt="Promotion 3" class="w-full">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://labkimiafarma.co.id/homecare">
+                                <img src="img/promotion-4.png" alt="Promotion 4" class="w-full">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Investor Information Section -->
+            <div id="investor-information" class="w-540px mx-auto">
+                <h1 class="pb-15px text-center text-uppercase text-1 fw-bold">Investor Information</h1>
+                <div class="mx-auto w-130px h-10px bg-eb9a01"></div>
+                <ul class="d-flex flex-column my-50px flex-lg-row justify-content-lg-between list-style-type-none">
+                    <li class="position-relative">
+                        <img src="img/info-1.png" alt="Information 1" class="w-full">
+                        <div id="info-caption" class="position-absolute bottom-1px w-full h-192px pt-50px px-20px pb-2.5 bg-eb6001b3">
+                            <h2 class="fs-2 text-uppercase pb-2.5 text-white fw-bold">Laporan Tahunan Perseroan</h2>
+                            <a href="https://www.kimiafarma.co.id/id/laporan-tahunan" class="text-white text-decoration-none">Selengkapnya ></a>
+                        </div>
+                    </li>
+                    <li class="position-relative">
+                        <img src="img/info-2.png" alt="Information 2" class="w-full">
+                        <div id="info-caption" class="position-absolute bottom-1px w-full h-192px pt-50px px-20px pb-2.5 bg-eb6001b3">
+                            <h2 class="fs-2 text-uppercase pb-2.5 text-white fw-bold">Laporan Keberlanjutan</h2>
+                            <a href="https://www.kimiafarma.co.id/id/sustainability-report" class="text-white text-decoration-none">Selengkapnya ></a>
+                        </div>
+                    </li>
+                    <li class="position-relative">
+                        <img src="img/info-3.png" alt="Information 3" class="w-full">
+                        <div id="info-caption" class="position-absolute bottom-1px w-full h-192px pt-50px px-20px pb-2.5 bg-eb6001b3">
+                            <h2 class="fs-2 text-uppercase pb-2.5 text-white fw-bold">Tata Kelola Perusahaan</h2>
+                            <a href="https://www.kimiafarma.co.id/id/tata-kelola-perusahaan" class="text-white text-decoration-none">Selengkapnya ></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Need Help Section -->
+            <div id="need-help" class="w-full px-50px">
+                <h1 class="pb-15px text-center text-uppercase fs-1 fw-bold">Need Help?</h1>
+                <div class="mx-auto w-130px h-10px bg-eb9a01"></div>
+                <div id="need-help-content" class="d-flex flex-column gap-5 mt-50px mb-5 flex-lg-row">
+                    <div class="basis-1/3 bg-f3f3f3">
+                        <h2 class="fw-normal text-uppercase fs-2">Outlet Kami</h2>
+                        <p class="text-999999">Temukan outlet apotek kami yang tersebar di seluruh Indonesia</p>
+                        <a href="https://kimiafarmaapotek.co.id/outlets/" class="text-eb6001 text-uppercase text-decoration-none">Find Out More</a>
+                    </div>
+                    <div class="basis-1/3 bg-f3f3f3">
+                        <h2 class="fw-normal text-uppercase fs-2">Layanan Kesehatan</h2>
+                        <p class="text-999999">Temukan laboratorium medis dan klinik kami yang tersebar di seluruh Indonesia</p>
+                        <a href="https://labkimiafarma.co.id/layanan" class="text-eb6001 text-uppercase text-decoration-none">Find Out More</a>
+                    </div>
+                    <img src="img/iklan_maret.jpg" alt="Iklan" class="basis-1/3">
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="w-screen bg-f3f3f3">
+            <!-- Contact Section -->
+            <div id="footer-contact" class="d-flex flex-column p-50px gap-5 flex-lg-row">
+                <div id="kantor-pusat" class="w-30">
+                    <h4 class="text-uppercase mb-2.5 fw-bold">Kantor Pusat</h4>
+                    <p>PT. KIMIA FARMA, TBK Jl. Veteran NO. 9 Jakarta Pusat - 10110</p>
+                </div>
+                <div id="hubungi-kami">
+                    <h4 class="text-uppercase mb-2.5 fw-bold">Hubungi Kami</h4>
+                    <ul class="list-style-type-none">
+                        <li>
+                            <a href="mailto:corsec@kimiafarma.co.id" class="text-black text-decoration-none">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/kimiafarmacare" class="text-black text-decoration-none">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/kimiafarmaind" class="text-black text-decoration-none">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/kimiafarma.ind" class="text-black text-decoration-none">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.kimiafarma.co.id/id/hubungi-kami" class="text-black text-decoration-none">Hubungi Kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="contact-center">
+                    <h4 class="text-uppercase fw-bold">Contact Center</h4>
+                    <p id="p-contact" class="ts-64px mb-5px fw-bold lh-sm">1-500-255</p>
+                    <p class="fw-bold">24 hours</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright" class="w-screen h-120px pt-45px pl-50px bg-eb6001 text-white ts-5">
+                <a href="https://fti.unai.edu" class="text-decoration-none text-white">FTI UNAI</a>
+                &middot;
+                <a href="https://unai.edu" class="text-decoration-none text-white">UNAI Website</a>
+                <p>&copy; 2023 &middot; Kimia Farma. All Right Reserved</p>
+            </div>
+        </footer>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].classList.add("hidden");
+                    slides[i].classList.remove("block");
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                }    
+                slides[slideIndex-1].classList.add("block");
+                slides[slideIndex-1].classList.remove("hidden");
+                setTimeout(showSlides, 3000);
+            }
+
+            let slideIndex2 = 0;
+            showSlides2();
+
+            function showSlides2() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides2");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].classList.add("hidden");
+                    slides[i].classList.remove("block");
+                }
+                slideIndex2++;
+                if (slideIndex2 > slides.length) {
+                    slideIndex2 = 1;
+                }    
+                slides[slideIndex2-1].classList.add("block");
+                slides[slideIndex2-1].classList.remove("hidden");
+                setTimeout(showSlides2, 3000);
+            }
+        </script>
+    </body>
+</html>

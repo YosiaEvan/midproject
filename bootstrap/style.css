@@ -1,0 +1,579 @@
+/* Font Family */
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Width */
+.w-screen {
+    width: 100vw;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.w-25px {
+    width: 25px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-130px {
+    width: 130px;
+}
+
+.w-250px {
+    width: 250px;
+}
+
+.w-330px {
+    width: 330px;
+}
+
+.w-516px {
+    width: 516px;
+}
+
+.w-540px {
+    width: 540px;
+}
+
+/* Height */
+.h-screen {
+    height: 100vh;
+}
+
+.h-10px {
+    height: 10px;
+}
+
+.h-30px {
+    height: 30px
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.h-120px {
+    height: 120px;
+}
+
+.h-147px {
+    height: 147px;
+}
+
+.h-192px {
+    height: 192px;
+}
+
+/* Border */
+.border-top-7px {
+    border-top: 7px solid #eb6001;
+}
+
+.border-search {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.rounded-3px {
+    border-radius: 3px;
+}
+
+.rounded-5px {
+    border-radius: 5px;
+}
+
+.rounded-10px {
+    border-radius: 10px;
+}
+
+.rounded-20px {
+    border-radius: 20px;
+}
+
+/* Padding */
+.p-5 {
+    padding: 20px;
+}
+
+.p-10px {
+    padding: 10px;
+}
+
+.p-50px {
+    padding: 50px;
+}
+
+.pt-10px {
+    padding-top: 10px;
+}
+
+.pt-30px {
+    padding-top: 30px;
+}
+
+.pt-45px {
+    padding-top: 45px;
+}
+
+.pb-2.5 {
+    padding-bottom: 10px;
+}
+
+.pb-5px {
+    padding-bottom: 5px;
+}
+
+.pb-15px {
+    padding-bottom: 15px;
+}
+
+.pb-20px {
+    padding-bottom: 20px;
+}
+
+.pb-40px {
+    padding-bottom: 40px;
+}
+
+.pb-60px {
+    padding-bottom: 60px;
+}
+
+.pl-50px {
+    padding-left: 50px;
+}
+
+.py-1 {
+    padding: 4px 0;
+}
+
+.py-5 {
+    padding: 20px 0;
+}
+
+.py-5px {
+    padding: 5px 0;
+}
+
+.py-15px {
+    padding: 15px 0;
+}
+
+.py-50px {
+    padding: 50px 0;
+}
+
+.px-10px {
+    padding: 0 10px;
+}
+
+.px-12px {
+    padding: 0 12px;
+}
+
+.px-20px {
+    padding: 0 20px;
+}
+
+.px-50px {
+    padding: 0 50px;
+}
+
+/* Font Color */
+.text-5a5a5a {
+    color: #5a5a5a;
+}
+
+.text-5a5a5a:hover {
+    color: #0d6efd;
+}
+
+.text-black:hover {
+    color: #002787;
+}
+
+.text-eb6001 {
+    color: #eb6001;
+}
+
+.text-999999 {
+    color: #999;
+}
+
+/* Font Size */
+.ts-64px {
+    font-size: 64px;
+}
+
+/* Margin */
+.mt-40px {
+    margin-top: 40px;
+}
+
+.mt-16px {
+    margin-top: 16px;
+}
+
+.mt-25px {
+    margin-top: 25px;
+}
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+.mt-50px {
+    margin-top: 50px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5px {
+    margin-bottom: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.my-10 {
+    margin: 40px 0;
+}
+
+.my-5px {
+    margin: 5px 0;
+}
+
+.my-50px {
+    margin: 50px 0;
+}
+
+.mx-50px {
+    margin: 0 50px;
+}
+
+/* Background Color */
+.bg-eb6001 {
+    background-color: #eb6001;
+}
+
+.bg-eb9a01 {
+    background-color: #eb9a01;
+}
+
+.bg-eb9b01 {
+    background-color: #eb9b01;
+}
+
+.bg-eb6001b3 {
+    background-color: #eb6001b3;
+}
+
+.bg-f3f3f3 {
+    background-color: #f3f3f3;
+}
+
+/* Gap */
+.gap-0 {
+    gap: 0;
+}
+
+.gap-5 {
+    gap: 20px;
+}
+
+.gap-16px {
+    gap: 16px;
+}
+
+.gap-30px {
+    gap: 30px;
+}
+
+/* List Style Type */
+.list-style-type-none {
+    list-style-type: none;
+}
+
+/* Search */
+#search {
+    margin-right: 12px;
+}
+
+/* Promotion Section */
+#promotion-section {
+    background: linear-gradient(to right, #eb9a01, #eb6301);
+    padding: 56px 12px  60px;
+}
+
+/* Investor Information */
+#investor-information {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Bottom */
+.bottom-1px {
+    bottom: 1px;
+}
+
+/* Info Caption */
+#info-caption {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+/* Need Help Content */
+#need-help-content div, #need-help-content img {
+    flex-basis: 33.3%;
+}
+
+#need-help-content div {
+    padding: 0 10px 40px;
+}
+
+#need-help-content div h2 {
+    padding: 70px 30px 5px;
+}
+
+#need-help-content div p {
+    padding: 0 5px 16px 30px;
+}
+
+#need-help-content div a {
+    padding: 5px 5px 20px 30px;
+}
+
+#bio-contact table, #bio table {
+    border-collapse: collapse;
+}
+
+#bio-contact table th img {
+    margin-right: 5px;
+}
+
+#bio {
+    padding-top: 50px;
+}
+
+#bio table th, #bio table td {
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
+
+#main-contactus form {
+    padding-top: 30px;
+}
+
+#main-contactus form > div div label {
+    padding-top: 10px;
+}
+
+#main-contactus form > div div input {
+    margin-top: 5px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+#gender-form input {
+    margin-right: 5px;
+}
+
+#religion, #address {
+    margin: 5px 0;
+    padding: 10px
+}
+
+#hobbies-form {
+    margin: 5px 0;
+}
+
+#hobbies-form li {
+    flex-basis: 50%;
+}
+
+#hobbies-form li input {
+    margin-right: 5px;
+}
+
+#main-contactus form button {
+    margin: 5px 0;
+    border: 1px solid #eb9a01;
+}
+
+#technical-menu {
+    margin: 40px;
+}
+
+#technical-content {
+    margin: 40px;
+}
+
+/* Footer */
+#hubungi-kami ul {
+    padding: 0;
+}
+
+/* Responsive */
+@media only screen and (min-width: 768px) {
+    #value-chain-section, #investor-information {
+        width: 696px;
+    }
+
+    #promotion-list {
+        padding: 0 35px;
+    }
+
+    #investor-information {
+        overflow-y: hidden;
+    }
+
+    #investor-information li {
+        height: 425px;
+    }
+
+    #kantor-pusat {
+        width: 23%;
+    }
+
+    #p-contact {
+        font-size: 60px;
+    }
+
+    #profile {
+        flex-basis: 33.3%;
+        margin-right: 0;
+    }
+
+    #profile img {
+        width: 130px;
+    }
+
+    #profile h1 {
+        font-size: 30px;
+    }
+
+    #bio-contact {
+        flex-basis: 66.6%;
+        margin-left: 0;
+    }
+
+    #bio-contact th {
+        text-align: right;
+    }
+
+    #bio-contact td {
+        text-align: left;
+    }
+
+    form > div div {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #value-chain-section, #investor-information {
+        width: 960px;
+    }
+
+    #value-chain-section li, #promotion-list li {
+        flex-basis: 31%;
+    }
+
+    #investor-information li {
+        height: 296px;
+    }
+
+    #investor-information li img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #need-help-content div {
+        width: 296px;
+    }
+
+    #need-help-content img {
+        width: 296px;
+        height: 190px;
+    }
+
+    #kantor-pusat {
+        width: 16%;
+    }
+
+    #hubungi-kami {
+        width: 58%;
+    }
+
+    #container-bio {
+        flex-basis: 33.3%;
+    }
+
+    #bio-contact {
+        margin-left: 50px;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    #bio-contact th {
+        text-align: left;
+    }
+
+    #bio-contact td {
+        text-align: right;
+    }
+
+    #bio {
+        flex-basis: 75%;
+        padding: 0 50px;
+        margin-left: 0;
+    }
+
+    #hobbies-form li {
+        flex-basis: 33.3%;
+    }
+
+    #technical {
+        gap: 20px;
+    }
+
+    #technical-menu {
+        flex-basis: 33.3%;
+        margin-right: 0;
+    }
+
+    #technical-content {
+        flex-basis: 66.6%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #value-chain-section, #investor-information {
+        width: 1140px;
+    }
+
+    #investor-information li {
+        height: 356px;
+    }
+
+    #bio table {
+        width: 100%;
+    }
+
+    #hobbies-form li {
+        flex-basis: 25%;
+    }
+}
